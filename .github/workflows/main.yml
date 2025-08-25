@@ -1,0 +1,16 @@
+name: "Pipeline github" 
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  DhondhuMaharaj:
+    name: Dhondhu Maharaj
+    runs-on: anilrunner
+
+    steps:
+    - name: Checkout repository
+      run: echo npm test
