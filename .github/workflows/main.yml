@@ -2,15 +2,17 @@ name: "Pipeline github"
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches:
+     - 'main'
+     - 'feature/**'
+  # pull_request:
+  #   branches: [main]
 
 jobs:
-  DhondhuMaharaj:
-    name: Dhondhu Maharaj
+  terraformInit:
+    name: Terraform init
     runs-on: anilrunner
 
     steps:
     - name: Checkout repository
-      run: echo npm test
+      run: echo dhondu ji
