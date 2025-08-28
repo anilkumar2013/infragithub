@@ -4,13 +4,13 @@ on:
   push:
     branches:
      - 'main'
-     - 'feature/**'
+     # - 'feature/**'
   # pull_request:
   #   branches: [main]
 
 jobs:
-  terraformInit:
-    name: Terraform init
+  gitactionfirst:
+    name: gitactionfirst
     runs-on: anilrunner
 
     steps:
