@@ -9,10 +9,9 @@ on:
   #   branches: [main]
 
 jobs:
-  gitactionfirst:
+  gitactionfirst1:
     name: gitactionfirst
     runs-on: anilrunner
-
     steps:
-    - name: Checkout repository
+    - name: ganpatibappa
       run: echo dhondu ji
